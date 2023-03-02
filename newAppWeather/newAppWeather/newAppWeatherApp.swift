@@ -2,7 +2,7 @@
 //  newAppWeatherApp.swift
 //  newAppWeather
 //
-//  Created by Fabio Costa Menozzi on 02/03/23.
+//  Created by Fabio Menozzi on 02/03/23.
 //
 
 import SwiftUI
