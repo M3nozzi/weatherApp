@@ -5,11 +5,14 @@
 ## User settings
 xcuserdata/
 
-## .xcconfig Files
+## MyConfig Files
 *.xcconfig
 
 ## Info.plist
-*.plist
+Info.plist
+
+## xcodeproj 
+*.xcodeproj
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
