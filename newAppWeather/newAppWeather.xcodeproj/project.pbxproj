@@ -14,6 +14,7 @@
 		C6ED42A629B157220048761B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED42A529B157220048761B /* LocationManager.swift */; };
 		C6ED42A829B157840048761B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED42A729B157840048761B /* WelcomeView.swift */; };
 		C6ED42AA29B1579C0048761B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED42A929B1579C0048761B /* LoadingView.swift */; };
+		C6ED42AE29B260820048761B /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED42AD29B260820048761B /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,9 @@
 		C6ED42A529B157220048761B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		C6ED42A729B157840048761B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		C6ED42A929B1579C0048761B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C6ED42AD29B260820048761B /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		C6ED42AF29B264690048761B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C6ED42B029B264F90048761B /* MyConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MyConfig.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,13 @@
 		C6ED429429B154FD0048761B /* newAppWeather */ = {
 			isa = PBXGroup;
 			children = (
+				C6ED42AF29B264690048761B /* Info.plist */,
 				C6ED42A429B1562A0048761B /* Managers */,
 				C6ED42A329B155E30048761B /* Views */,
 				C6ED429529B154FD0048761B /* newAppWeatherApp.swift */,
 				C6ED429929B154FF0048761B /* Assets.xcassets */,
 				C6ED429B29B154FF0048761B /* Preview Content */,
+				C6ED42B029B264F90048761B /* MyConfig.xcconfig */,
 			);
 			path = newAppWeather;
 			sourceTree = "<group>";
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				C6ED42A529B157220048761B /* LocationManager.swift */,
+				C6ED42AD29B260820048761B /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -162,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6ED42AE29B260820048761B /* WeatherManager.swift in Sources */,
 				C6ED429829B154FD0048761B /* ContentView.swift in Sources */,
 				C6ED429629B154FD0048761B /* newAppWeatherApp.swift in Sources */,
 				C6ED42A629B157220048761B /* LocationManager.swift in Sources */,
@@ -298,6 +306,7 @@
 				DEVELOPMENT_TEAM = AB3RG8QD33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = newAppWeather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -327,6 +336,7 @@
 				DEVELOPMENT_TEAM = AB3RG8QD33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = newAppWeather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
