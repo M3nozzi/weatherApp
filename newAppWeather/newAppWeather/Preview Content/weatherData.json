@@ -14,7 +14,7 @@
     "base": "stations",
     "main": {
         "temp": 3.42,
-        "feels_like": 0.51,
+        "feels_like": 1.51,
         "temp_min": 1.36,
         "temp_max": 5.28,
         "pressure": 1015,
@@ -39,6 +39,6 @@
     },
     "timezone": -18000,
     "id": 5128581,
-    "name": "New York",
+    "name": "Chicago",
     "cod": 200
 }
